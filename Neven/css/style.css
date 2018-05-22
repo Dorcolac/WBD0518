@@ -22,12 +22,10 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 60px;
 }
 
 ul li a:hover {
 	background-color: red;
 }
-li a {
-    display: block;
-}
+
+
