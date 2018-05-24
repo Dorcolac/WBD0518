@@ -1,1 +1,36 @@
-dsadasdsdddsad
+nav {
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    display: block;
+}
+
+ul li {
+    background-color: gray;
+    border-bottom: 3px solid black;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    display:inline;
+}
+nav li a {
+    display:inline-block;
+    width: 100px;
+    height: 40px;
+    padding: 0px;
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:visited {
+    color: green;
+}
+
+nav ul li:hover {
+    transition: .8s;
+    background-color: rgba(100, 100, 100, .2);
+}
+
+nav ul li a:active {
+    color: yellow;
+}
